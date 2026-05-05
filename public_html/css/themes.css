@@ -1,0 +1,977 @@
+/*
+   Account Store CMS — Themes System
+   5 шаблонов: dark-pro, cyber-neon, accsmarket, light-clean, midnight-gold
+   ============================================ */
+
+/* ============================================================
+   ШАБЛОН 1: dark-pro (по умолчанию — тёмный профессиональный)
+   Фиолетово-синий, карточки-плитки
+   ============================================================ */
+body.theme-dark-pro {
+    --primary: #4F46E5;
+    --primary-hover: #4338CA;
+    --secondary: #10B981;
+    --danger: #EF4444;
+    --warning: #F59E0B;
+    --bg-dark: #0F172A;
+    --bg-card: #1E293B;
+    --bg-hover: #334155;
+    --text-primary: #FFFFFF;
+    --text-secondary: #E0E7FF;
+    --text-muted: #A5B4FC;
+    --border: #334155;
+    --border-radius: 12px;
+    --gradient-primary: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+    --gradient-success: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    --button-primary-text: #F8FAFC;
+    --button-secondary-text: #F8FAFC;
+    --surface-contrast-text: #F8FAFC;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+/* ============================================================
+   ШАБЛОН 2: cyber-neon (Кибер-неон — тёмный с зелёными акцентами)
+   ============================================================ */
+body.theme-cyber-neon {
+    --primary: #00FF88;
+    --primary-hover: #00CC6A;
+    --secondary: #00D4FF;
+    --danger: #FF3366;
+    --warning: #FFB800;
+    --bg-dark: #050D1A;
+    --bg-card: #0A1628;
+    --bg-hover: #0F2040;
+    --text-primary: #E0F7FA;
+    --text-secondary: #80DEEA;
+    --text-muted: #4DB6AC;
+    --border: #1A3A5C;
+    --border-radius: 4px;
+    --gradient-primary: linear-gradient(135deg, #00FF88 0%, #00D4FF 100%);
+    --gradient-success: linear-gradient(135deg, #00D4FF 0%, #0099CC 100%);
+    --button-primary-text: #050D1A;
+    --button-secondary-text: #050D1A;
+    --surface-contrast-text: #E0F7FA;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+body.theme-cyber-neon .logo-text {
+    background: linear-gradient(135deg, #00FF88, #00D4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-cyber-neon .site-header {
+    border-bottom: 1px solid #00FF8833;
+    background: rgba(5, 13, 26, 0.95);
+}
+
+body.theme-cyber-neon .main-nav {
+    background: var(--bg-card);
+    border-bottom: 1px solid #00FF8833;
+}
+
+body.theme-cyber-neon .top-bar {
+    background: var(--bg-dark);
+    border-bottom: 1px solid #00FF8822;
+}
+
+body.theme-cyber-neon .product-card {
+    border-color: #1A3A5C;
+    background: var(--bg-card);
+    transition: all 0.3s ease;
+}
+
+body.theme-cyber-neon .product-card:hover {
+    border-color: #00FF88;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.3), 0 0 40px rgba(0, 255, 136, 0.1);
+}
+
+body.theme-cyber-neon .product-card::after {
+    background: linear-gradient(135deg, #00FF88, #00D4FF);
+}
+
+body.theme-cyber-neon .product-buy-btn {
+    background: linear-gradient(135deg, #00FF88, #00D4FF);
+    color: #050D1A;
+    font-weight: 700;
+}
+
+body.theme-cyber-neon .product-buy-btn:hover {
+    box-shadow: 0 8px 25px rgba(0, 255, 136, 0.5);
+}
+
+body.theme-cyber-neon .btn-primary {
+    background: linear-gradient(135deg, #00FF88, #00D4FF);
+    color: #050D1A;
+    font-weight: 700;
+}
+
+body.theme-cyber-neon .category-card:hover {
+    border-color: #00FF88;
+    box-shadow: 0 20px 40px rgba(0, 255, 136, 0.2);
+}
+
+body.theme-cyber-neon .nav-link:hover,
+body.theme-cyber-neon .nav-link.active {
+    color: #00FF88;
+    border-bottom-color: #00FF88;
+}
+
+body.theme-cyber-neon .hero-badge {
+    background: rgba(0, 255, 136, 0.1);
+    border-color: rgba(0, 255, 136, 0.3);
+    color: #00FF88;
+}
+
+body.theme-cyber-neon .hero-feature {
+    background: rgba(0, 212, 255, 0.1);
+    border-color: rgba(0, 212, 255, 0.25);
+    color: #00D4FF;
+}
+
+body.theme-cyber-neon .stat-number {
+    background: linear-gradient(135deg, #00FF88, #00D4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-cyber-neon .product-feature-tag {
+    background: rgba(0, 212, 255, 0.1);
+    border-color: rgba(0, 212, 255, 0.2);
+    color: #00D4FF;
+}
+
+body.theme-cyber-neon .hero-bg-gradient {
+    background: radial-gradient(ellipse 80% 60% at 50% -20%, rgba(0, 255, 136, 0.2) 0%, transparent 60%),
+                radial-gradient(ellipse 50% 40% at 80% 80%, rgba(0, 212, 255, 0.15) 0%, transparent 50%);
+}
+
+body.theme-cyber-neon .hero-particle {
+    background: #00FF88;
+}
+
+/* ============================================================
+   ШАБЛОН 3: accsmarket (Стиль accsmarket.com — строчный список)
+   Тёмный фон, зелёные кнопки, строчное отображение товаров
+   ============================================================ */
+body.theme-accsmarket {
+    --primary: #4CAF50;
+    --primary-hover: #388E3C;
+    --secondary: #8BC34A;
+    --danger: #F44336;
+    --warning: #FF9800;
+    --bg-dark: #1a1a2e;
+    --bg-card: #16213e;
+    --bg-hover: #0f3460;
+    --text-primary: #FFFFFF;
+    --text-secondary: #B0BEC5;
+    --text-muted: #78909C;
+    --border: #2d3561;
+    --border-radius: 4px;
+    --gradient-primary: linear-gradient(135deg, #4CAF50 0%, #8BC34A 100%);
+    --gradient-success: linear-gradient(135deg, #8BC34A 0%, #689F38 100%);
+    --button-primary-text: #FFFFFF;
+    --button-secondary-text: #FFFFFF;
+    --surface-contrast-text: #FFFFFF;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+body.theme-accsmarket .site-header {
+    background: #16213e;
+}
+
+body.theme-accsmarket .top-bar {
+    background: #0d1b2a;
+    border-bottom: 1px solid #2d3561;
+    padding: 8px 0;
+}
+
+body.theme-accsmarket .main-nav {
+    background: #16213e;
+    border-bottom: 1px solid #2d3561;
+}
+
+body.theme-accsmarket .logo-text {
+    background: linear-gradient(135deg, #4CAF50, #8BC34A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-accsmarket .nav-link:hover,
+body.theme-accsmarket .nav-link.active {
+    color: #4CAF50;
+    border-bottom-color: #4CAF50;
+}
+
+body.theme-accsmarket .btn-primary,
+body.theme-accsmarket .product-buy-btn {
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 3px;
+}
+
+body.theme-accsmarket .btn-primary:hover,
+body.theme-accsmarket .product-buy-btn:hover {
+    background: #388E3C;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+/* Строчное отображение товаров в стиле accsmarket */
+body.theme-accsmarket .products-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+body.theme-accsmarket .product-card {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #2d3561;
+    padding: 12px 16px;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    background: #16213e;
+    transform: none !important;
+    perspective: none;
+}
+
+body.theme-accsmarket .products-grid .product-card:first-child {
+    border-top: 1px solid #2d3561;
+    border-radius: 4px 4px 0 0;
+}
+
+body.theme-accsmarket .products-grid .product-card:last-child {
+    border-radius: 0 0 4px 4px;
+}
+
+body.theme-accsmarket .product-card:hover {
+    background: #1a2a4a;
+    border-color: #2d3561;
+    box-shadow: none;
+    transform: none !important;
+}
+
+body.theme-accsmarket .product-card::after {
+    display: none;
+}
+
+body.theme-accsmarket .product-card-header {
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+body.theme-accsmarket .product-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.05);
+}
+
+body.theme-accsmarket .product-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+body.theme-accsmarket .product-meta {
+    min-width: 0;
+}
+
+body.theme-accsmarket .product-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    -webkit-line-clamp: 1;
+    color: #cce5ff;
+}
+
+body.theme-accsmarket .product-category {
+    font-size: 0.7rem;
+    color: #4CAF50;
+}
+
+body.theme-accsmarket .product-description {
+    font-size: 0.78rem;
+    -webkit-line-clamp: 1;
+    color: var(--text-secondary);
+    flex: 1;
+    min-width: 0;
+}
+
+body.theme-accsmarket .product-features {
+    display: none;
+}
+
+body.theme-accsmarket .product-footer {
+    border-top: none;
+    padding-top: 0;
+    flex-shrink: 0;
+    gap: 12px;
+    margin-top: 0;
+}
+
+body.theme-accsmarket .product-stock {
+    white-space: nowrap;
+    font-size: 0.78rem;
+    min-width: 70px;
+    text-align: right;
+}
+
+body.theme-accsmarket .product-price {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    min-width: 80px;
+    text-align: right;
+    color: #4CAF50;
+}
+
+body.theme-accsmarket .product-buy-btn {
+    padding: 7px 16px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    white-space: nowrap;
+    width: auto;
+    margin-top: 0;
+    background: #4CAF50;
+    min-width: 70px;
+    position: relative;
+    z-index: 999;
+    pointer-events: auto !important;
+}
+
+/* Заголовок блока категории в стиле accsmarket */
+body.theme-accsmarket .category-section-header {
+    background: #1e2d4a;
+    border: 1px solid #2d3561;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+body.theme-accsmarket .category-section-header h2 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+body.theme-accsmarket .category-section-header .sort-labels {
+    display: flex;
+    gap: 20px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+body.theme-accsmarket .hero {
+    min-height: 200px;
+    padding: 30px 0;
+}
+
+body.theme-accsmarket .hero h1 {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+body.theme-accsmarket .hero-bg-gradient {
+    background: radial-gradient(ellipse 80% 60% at 50% -20%, rgba(76, 175, 80, 0.15) 0%, transparent 60%);
+}
+
+body.theme-accsmarket .hero-particle {
+    background: #4CAF50;
+}
+
+body.theme-accsmarket .stat-number {
+    background: linear-gradient(135deg, #4CAF50, #8BC34A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-accsmarket .category-card:hover {
+    border-color: #4CAF50;
+    box-shadow: 0 10px 30px rgba(76, 175, 80, 0.2);
+}
+
+body.theme-accsmarket .hero-badge {
+    background: rgba(76, 175, 80, 0.1);
+    border-color: rgba(76, 175, 80, 0.3);
+    color: #8BC34A;
+}
+
+body.theme-accsmarket .hero-feature {
+    background: rgba(76, 175, 80, 0.1);
+    border-color: rgba(76, 175, 80, 0.25);
+    color: #8BC34A;
+}
+
+body.theme-accsmarket .product-feature-tag {
+    background: rgba(76, 175, 80, 0.1);
+    border-color: rgba(76, 175, 80, 0.2);
+    color: #8BC34A;
+}
+
+/* ============================================================
+   ШАБЛОН 4: light-clean (Светлый чистый — белый фон, синие акценты)
+   ============================================================ */
+body.theme-light-clean {
+    --primary: #2563EB;
+    --primary-hover: #1D4ED8;
+    --secondary: #059669;
+    --danger: #DC2626;
+    --warning: #D97706;
+    --bg-dark: #F8FAFC;
+    --bg-card: #FFFFFF;
+    --bg-hover: #F1F5F9;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-muted: #94A3B8;
+    --border: #E2E8F0;
+    --border-radius: 16px;
+    --gradient-primary: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+    --gradient-success: linear-gradient(135deg, #059669 0%, #10B981 100%);
+    --button-primary-text: #FFFFFF;
+    --button-secondary-text: #0F172A;
+    --surface-contrast-text: #0F172A;
+    background-color: #F8FAFC;
+    color: var(--text-primary);
+}
+
+body.theme-light-clean .site-header {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+body.theme-light-clean .site-header.scrolled {
+    background: rgba(255,255,255,0.92);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+body.theme-light-clean .top-bar {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+body.theme-light-clean .main-nav {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+body.theme-light-clean .product-card {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+body.theme-light-clean .product-card:hover {
+    border-color: #2563EB;
+    box-shadow: 0 10px 40px rgba(37, 99, 235, 0.15);
+    transform: translateY(-4px);
+}
+
+body.theme-light-clean .hero {
+    background: linear-gradient(135deg, #EFF6FF 0%, #F0FDF4 100%);
+}
+
+body.theme-light-clean .hero-bg-gradient {
+    background: radial-gradient(ellipse 80% 60% at 50% -20%, rgba(37, 99, 235, 0.15) 0%, transparent 60%);
+}
+
+body.theme-light-clean .hero-particle {
+    background: #2563EB;
+}
+
+body.theme-light-clean .hero h1 {
+    color: #0F172A;
+}
+
+body.theme-light-clean .hero-subtitle {
+    color: #475569;
+}
+
+body.theme-light-clean .hero-badge {
+    background: rgba(37, 99, 235, 0.08);
+    border-color: rgba(37, 99, 235, 0.2);
+    color: #2563EB;
+}
+
+body.theme-light-clean .hero-feature {
+    background: rgba(5, 150, 105, 0.08);
+    border-color: rgba(5, 150, 105, 0.2);
+    color: #059669;
+}
+
+body.theme-light-clean .stats-section {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+}
+
+body.theme-light-clean .stat-number {
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-light-clean .category-card {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+body.theme-light-clean .category-card:hover {
+    border-color: #2563EB;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+}
+
+body.theme-light-clean .faq-item {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+body.theme-light-clean .advantage-card {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+}
+
+body.theme-light-clean .advantage-card:hover {
+    border-color: #2563EB;
+    box-shadow: -4px 0 0 #2563EB;
+}
+
+body.theme-light-clean .section-alt {
+    background: #F8FAFC;
+}
+
+body.theme-light-clean .search-form {
+    background: #F1F5F9;
+    border-color: #E2E8F0;
+}
+
+body.theme-light-clean .cart-sidebar-panel {
+    background: #FFFFFF;
+    border-left: 1px solid #E2E8F0;
+}
+
+body.theme-light-clean .product-feature-tag {
+    background: rgba(5, 150, 105, 0.08);
+    border-color: rgba(5, 150, 105, 0.2);
+    color: #059669;
+}
+
+body.theme-light-clean .nav-link:hover,
+body.theme-light-clean .nav-link.active {
+    color: #2563EB;
+    border-bottom-color: #2563EB;
+}
+
+body.theme-light-clean .footer {
+    background: #1E293B;
+    color: #F8FAFC;
+}
+
+/* ============================================================
+   ШАБЛОН 5: midnight-gold (Полночь и золото — тёмный с золотыми акцентами)
+   ============================================================ */
+body.theme-midnight-gold {
+    --primary: #F59E0B;
+    --primary-hover: #D97706;
+    --secondary: #FBBF24;
+    --danger: #EF4444;
+    --warning: #F97316;
+    --bg-dark: #0A0A0F;
+    --bg-card: #12121A;
+    --bg-hover: #1A1A28;
+    --text-primary: #FEF3C7;
+    --text-secondary: #D1D5DB;
+    --text-muted: #6B7280;
+    --border: #1F1F2E;
+    --border-radius: 8px;
+    --gradient-primary: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%);
+    --gradient-success: linear-gradient(135deg, #FBBF24 0%, #D97706 100%);
+    --button-primary-text: #0A0A0F;
+    --button-secondary-text: #0A0A0F;
+    --surface-contrast-text: #FEF3C7;
+    background-color: var(--bg-dark);
+
+    color: var(--text-primary);
+}
+
+body.theme-midnight-gold .logo-text {
+    background: linear-gradient(135deg, #F59E0B, #FBBF24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-midnight-gold .site-header {
+    background: #0A0A0F;
+    border-bottom: 1px solid #1F1F2E;
+}
+
+body.theme-midnight-gold .top-bar {
+    background: #07070C;
+    border-bottom: 1px solid #1F1F2E;
+}
+
+body.theme-midnight-gold .main-nav {
+    background: #12121A;
+    border-bottom: 1px solid #1F1F2E;
+}
+
+body.theme-midnight-gold .product-card {
+    background: #12121A;
+    border-color: #1F1F2E;
+}
+
+body.theme-midnight-gold .product-card:hover {
+    border-color: #F59E0B;
+    box-shadow: 0 20px 60px rgba(245, 158, 11, 0.2), 0 0 0 1px rgba(245, 158, 11, 0.1);
+}
+
+body.theme-midnight-gold .product-card::after {
+    background: linear-gradient(135deg, #F59E0B, #FBBF24);
+}
+
+body.theme-midnight-gold .product-buy-btn {
+    background: linear-gradient(135deg, #F59E0B, #FBBF24);
+    color: #0A0A0F;
+    font-weight: 700;
+}
+
+body.theme-midnight-gold .product-buy-btn:hover {
+    box-shadow: 0 8px 25px rgba(245, 158, 11, 0.5);
+}
+
+body.theme-midnight-gold .btn-primary {
+    background: linear-gradient(135deg, #F59E0B, #FBBF24);
+    color: #0A0A0F;
+    font-weight: 700;
+}
+
+body.theme-midnight-gold .category-card:hover {
+    border-color: #F59E0B;
+    box-shadow: 0 20px 40px rgba(245, 158, 11, 0.2);
+}
+
+body.theme-midnight-gold .nav-link:hover,
+body.theme-midnight-gold .nav-link.active {
+    color: #F59E0B;
+    border-bottom-color: #F59E0B;
+}
+
+body.theme-midnight-gold .hero-badge {
+    background: rgba(245, 158, 11, 0.1);
+    border-color: rgba(245, 158, 11, 0.3);
+    color: #FBBF24;
+}
+
+body.theme-midnight-gold .hero-feature {
+    background: rgba(251, 191, 36, 0.1);
+    border-color: rgba(251, 191, 36, 0.25);
+    color: #FBBF24;
+}
+
+body.theme-midnight-gold .stat-number {
+    background: linear-gradient(135deg, #F59E0B, #FBBF24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-midnight-gold .product-feature-tag {
+    background: rgba(245, 158, 11, 0.1);
+    border-color: rgba(245, 158, 11, 0.2);
+    color: #FBBF24;
+}
+
+body.theme-midnight-gold .hero-bg-gradient {
+    background: radial-gradient(ellipse 80% 60% at 50% -20%, rgba(245, 158, 11, 0.2) 0%, transparent 60%),
+                radial-gradient(ellipse 50% 40% at 80% 80%, rgba(251, 191, 36, 0.1) 0%, transparent 50%);
+}
+
+body.theme-midnight-gold .hero-particle {
+    background: #F59E0B;
+}
+
+body.theme-midnight-gold .faq-item.open {
+    border-color: #F59E0B;
+}
+
+body.theme-midnight-gold .faq-item.open .faq-question {
+    color: #F59E0B;
+}
+
+body.theme-midnight-gold .advantage-card:hover {
+    border-color: #F59E0B;
+    box-shadow: -4px 0 0 #F59E0B;
+}
+
+body.theme-midnight-gold .trust-item:hover {
+    border-color: #F59E0B;
+}
+
+body.theme-midnight-gold .trust-item-icon {
+    color: #F59E0B;
+}
+
+/* ============================================================
+   ПЕРЕКЛЮЧАТЕЛЬ ШАБЛОНОВ — UI компонент
+   ============================================================ */
+.theme-switcher {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.theme-switcher-toggle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    border: none;
+    transition: all 0.3s;
+}
+
+.theme-switcher-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.4);
+}
+
+.theme-switcher-panel {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px;
+    width: 280px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    display: none;
+    animation: fadeInUp 0.3s ease;
+}
+
+.theme-switcher-panel.open {
+    display: block;
+}
+
+.theme-switcher-panel h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.theme-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.theme-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    transition: all 0.2s;
+    background: var(--bg-hover);
+}
+
+.theme-option:hover {
+    border-color: var(--primary);
+}
+
+.theme-option.active {
+    border-color: var(--primary);
+    background: rgba(79, 70, 229, 0.1);
+}
+
+.theme-option-preview {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.theme-option-info {
+    flex: 1;
+}
+
+.theme-option-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+}
+
+.theme-option-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.theme-option-check {
+    color: var(--primary);
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.theme-option.active .theme-option-check {
+    opacity: 1;
+}
+
+body[class*="theme-"] .btn-primary,
+body[class*="theme-"] .product-buy-btn,
+body[class*="theme-"] .theme-switcher-toggle {
+    color: var(--button-primary-text) !important;
+}
+
+body[class*="theme-"] .btn-secondary,
+body[class*="theme-"] .btn-outline,
+body[class*="theme-"] .btn-light,
+body[class*="theme-"] .btn-crypto-secondary {
+    color: var(--button-secondary-text) !important;
+}
+
+body.theme-dark-pro .product-card,
+body.theme-dark-pro .category-card,
+body.theme-dark-pro .faq-item,
+body.theme-dark-pro .advantage-card,
+body.theme-dark-pro .search-form,
+body.theme-dark-pro .cart-sidebar-panel,
+body.theme-dark-pro .theme-switcher-panel,
+body.theme-cyber-neon .product-card,
+body.theme-cyber-neon .category-card,
+body.theme-cyber-neon .faq-item,
+body.theme-cyber-neon .advantage-card,
+body.theme-cyber-neon .search-form,
+body.theme-cyber-neon .cart-sidebar-panel,
+body.theme-cyber-neon .theme-switcher-panel,
+body.theme-accsmarket .product-card,
+body.theme-accsmarket .category-card,
+body.theme-accsmarket .faq-item,
+body.theme-accsmarket .advantage-card,
+body.theme-accsmarket .search-form,
+body.theme-accsmarket .cart-sidebar-panel,
+body.theme-accsmarket .theme-switcher-panel,
+body.theme-midnight-gold .product-card,
+body.theme-midnight-gold .category-card,
+body.theme-midnight-gold .faq-item,
+body.theme-midnight-gold .advantage-card,
+body.theme-midnight-gold .search-form,
+body.theme-midnight-gold .cart-sidebar-panel,
+body.theme-midnight-gold .theme-switcher-panel {
+    color: var(--surface-contrast-text);
+}
+
+body.theme-light-clean .product-card,
+body.theme-light-clean .category-card,
+body.theme-light-clean .faq-item,
+body.theme-light-clean .advantage-card,
+body.theme-light-clean .search-form,
+body.theme-light-clean .cart-sidebar-panel,
+body.theme-light-clean .theme-switcher-panel {
+    color: var(--surface-contrast-text);
+}
+
+/* Превью цветов шаблона */
+.theme-preview-dark-pro { background: linear-gradient(135deg, #4F46E5, #7C3AED); }
+.theme-preview-cyber-neon { background: linear-gradient(135deg, #00FF88, #00D4FF); }
+.theme-preview-accsmarket { background: linear-gradient(135deg, #4CAF50, #8BC34A); }
+.theme-preview-light-clean { background: linear-gradient(135deg, #2563EB, #7C3AED); }
+.theme-preview-midnight-gold { background: linear-gradient(135deg, #F59E0B, #FBBF24); }
+
+/* ============================================================
+   АДАПТИВ ДЛЯ СТРОЧНОГО ШАБЛОНА (accsmarket)
+   ============================================================ */
+@media (max-width: 768px) {
+    body.theme-accsmarket .product-card {
+        flex-wrap: wrap;
+        padding: 10px 12px;
+    }
+
+    body.theme-accsmarket .product-description {
+        display: none;
+    }
+
+    body.theme-accsmarket .product-footer {
+        gap: 8px;
+    }
+
+    body.theme-accsmarket .product-stock {
+        min-width: 60px;
+        font-size: 0.72rem;
+    }
+
+    body.theme-accsmarket .product-price {
+        font-size: 0.85rem;
+        min-width: 70px;
+    }
+
+    body.theme-accsmarket .product-buy-btn {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+        min-width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    body.theme-accsmarket .product-card {
+        gap: 8px;
+    }
+
+    body.theme-accsmarket .product-card-header {
+        flex: 1;
+        min-width: 0;
+    }
+
+    body.theme-accsmarket .product-footer {
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+/* ============================================================
+   АНИМАЦИЯ ПЕРЕКЛЮЧЕНИЯ ТЕМЫ
+   ============================================================ */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-card,
+.category-card,
+.site-header,
+.main-nav,
+.top-bar {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}

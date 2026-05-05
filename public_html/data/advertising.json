@@ -1,0 +1,185 @@
+{
+    "spots": [
+        {
+            "id": "header_banner",
+            "name": "Шапка сайта (Header Banner)",
+            "description": "Горизонтальный баннер под навигационным меню. Максимальная видимость — на каждой странице сайта.",
+            "size": "970x90",
+            "width": 970,
+            "height": 90,
+            "location": "Под главным меню, на всех страницах",
+            "price_month": 5000,
+            "price_week": 1500,
+            "max_banners": 5,
+            "enabled": false,
+            "pages": [
+                "all"
+            ]
+        },
+        {
+            "id": "sidebar_top",
+            "name": "Встроенный промо-блок (Inline Promo)",
+            "description": "Компактный баннер внутри контента: после сетки товаров, под карточкой покупки и в блоке оформления заказа.",
+            "size": "300x250",
+            "width": 300,
+            "height": 250,
+            "location": "Каталог, карточка товара и оформление заказа",
+            "price_month": 3000,
+            "price_week": 900,
+            "max_banners": 8,
+            "enabled": false,
+            "pages": [
+                "category",
+                "item",
+                "oplata"
+            ]
+        },
+        {
+            "id": "sidebar_bottom",
+            "name": "Нижний контентный баннер (Inline Extended)",
+            "description": "Высокий баннер внутри страницы после товарных блоков и внизу карточки товара. Подходит для заметных промо-кампаний.",
+            "size": "300x600",
+            "width": 300,
+            "height": 600,
+            "location": "После списка товаров и под блоком покупки на странице товара",
+            "price_month": 2500,
+            "price_week": 750,
+            "max_banners": 6,
+            "enabled": false,
+            "pages": [
+                "category",
+                "item"
+            ]
+        },
+        {
+            "id": "content_middle",
+            "name": "Баннер в каталоге (Content Middle)",
+            "description": "Широкий баннер между блоками товаров на главной странице. Встроен в поток контента.",
+            "size": "728x90",
+            "width": 728,
+            "height": 90,
+            "location": "Между секциями товаров на главной странице",
+            "price_month": 4000,
+            "price_week": 1200,
+            "max_banners": 5,
+            "enabled": false,
+            "pages": [
+                "home"
+            ]
+        },
+        {
+            "id": "checkout_banner",
+            "name": "Баннер в оформлении заказа (Checkout Banner)",
+            "description": "Баннер рядом с итогом заказа и формой оплаты. Хорошо подходит для апсейлов, партнёрских офферов и промокодов.",
+            "size": "300x250",
+            "width": 300,
+            "height": 250,
+            "location": "Правая колонка страницы оформления заказа",
+            "price_month": 2200,
+            "price_week": 700,
+            "max_banners": 6,
+            "enabled": false,
+            "pages": [
+                "oplata"
+            ]
+        },
+        {
+            "id": "footer_banner",
+            "name": "Баннер перед футером (Pre-Footer)",
+            "description": "Широкий баннер перед подвалом сайта. Отображается на всех страницах.",
+            "size": "970x90",
+            "width": 970,
+            "height": 90,
+            "location": "Перед подвалом сайта, на всех страницах",
+            "price_month": 2000,
+            "price_week": 600,
+            "max_banners": 10,
+            "enabled": false,
+            "pages": [
+                "all"
+            ]
+        },
+        {
+            "id": "home_showcase_banner",
+            "name": "Баннер после первого экрана (Home Showcase)",
+            "description": "Широкий баннер сразу после первого экрана главной страницы. Хорошо подходит для партнёрских запусков, акций и спецпредложений.",
+            "size": "728x90",
+            "width": 728,
+            "height": 90,
+            "location": "Главная страница, сразу после первого экрана",
+            "price_month": 3500,
+            "price_week": 1100,
+            "max_banners": 5,
+            "enabled": false,
+            "pages": [
+                "home"
+            ]
+        },
+        {
+            "id": "blog_feed_banner",
+            "name": "Баннер в ленте блога (Blog Feed)",
+            "description": "Нативный широкий баннер внутри списка статей. Подходит для контентных интеграций, обучения и сервисов для SMM-специалистов.",
+            "size": "728x90",
+            "width": 728,
+            "height": 90,
+            "location": "Страница блога, между карточками статей и пагинацией",
+            "price_month": 2600,
+            "price_week": 800,
+            "max_banners": 6,
+            "enabled": false,
+            "pages": [
+                "info"
+            ]
+        },
+        {
+            "id": "faq_help_banner",
+            "name": "Баннер перед блоком помощи (FAQ Assist)",
+            "description": "Рекламный блок в конце FAQ перед призывом написать в поддержку. Подходит для релевантных услуг, саппорта и сопутствующих предложений.",
+            "size": "728x90",
+            "width": 728,
+            "height": 90,
+            "location": "Страница FAQ, перед блоком связи с поддержкой",
+            "price_month": 1800,
+            "price_week": 550,
+            "max_banners": 4,
+            "enabled": false,
+            "pages": [
+                "faq"
+            ]
+        },
+        {
+            "id": "popup_banner",
+            "name": "Попап-баннер (Popup)",
+            "description": "Всплывающий баннер при первом посещении страницы. Максимальный охват, показывается один раз за сессию.",
+            "size": "600x400",
+            "width": 600,
+            "height": 400,
+            "location": "Всплывающее окно при входе на сайт",
+            "price_month": 8000,
+            "price_week": 2500,
+            "max_banners": 3,
+            "enabled": false,
+            "pages": [
+                "all"
+            ]
+        }
+    ],
+    "banners": [
+        {
+            "id": "1777909194_4803",
+            "spot_id": "header_banner",
+            "title": "шапка",
+            "advertiser": "вася",
+            "url": "google.com",
+            "image_url": "\/images\/banners\/banner_1777909186_4207.gif",
+            "alt_text": "",
+            "type": "image",
+            "active": false,
+            "date_start": "2026-05-04",
+            "date_end": "",
+            "created_at": "2026-05-04 18:39:54",
+            "notes": "",
+            "updated_at": "2026-05-04 18:55:52"
+        }
+    ]
+}
