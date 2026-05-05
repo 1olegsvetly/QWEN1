@@ -459,6 +459,181 @@ if (!empty($_adMiddleHtml)):
 </div>
 <?php endif; ?>
 
+<?php
+// Логика отображения товаров в зависимости от темы
+$current_theme = $config['template'] ?? 'dark-pro';
+$display_mode = 'grid'; // grid, list, premium
+
+if ($current_theme == 'accsmarket') {
+    $display_mode = 'list'; // Строгий список как на accsmarket.com
+} elseif ($current_theme == 'noves-shop') {
+    $display_mode = 'grid-clean'; // Чистая сетка с тенью
+} elseif ($current_theme == 'dark-shopping') {
+    $display_mode = 'premium-grid'; // Премиум сетка с золотом
+}
+?>
+
+<!-- Стили для разных режимов отображения -->
+<style>
+/* ACCSMARKET MODE: Строгий список */
+.theme-accsmarket .product-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #333;
+    background: rgba(255,255,255,0.02);
+    transition: 0.2s;
+}
+.theme-accsmarket .product-list-item:hover {
+    background: rgba(46, 204, 113, 0.08);
+    padding-left: 20px;
+}
+.theme-accsmarket .product-title {
+    font-size: 14px;
+    color: #2ecc71;
+    text-decoration: none;
+    font-weight: 500;
+}
+.theme-accsmarket .product-price {
+    font-weight: bold;
+    color: #fff;
+    background: #2ecc71;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* NOVES-SHOP MODE: Чистая сетка */
+.theme-noves-shop .product-card-clean {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.theme-noves-shop .product-card-clean:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-color: #3498db;
+}
+.theme-noves-shop .pc-img {
+    height: 180px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.theme-noves-shop .pc-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.theme-noves-shop .pc-body {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.theme-noves-shop .pc-title {
+    font-size: 15px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+.theme-noves-shop .pc-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+.theme-noves-shop .pc-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3498db;
+}
+.theme-noves-shop .pc-btn {
+    background: #3498db;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.2s;
+}
+.theme-noves-shop .pc-btn:hover {
+    background: #2980b9;
+}
+
+/* DARK-SHOPPING MODE: Премиум темный */
+.theme-dark-shopping .product-card-premium {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+    height: 100%;
+}
+.theme-dark-shopping .product-card-premium:hover {
+    border-color: #d4af37;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.25);
+    transform: translateY(-3px);
+}
+.theme-dark-shopping .pc-prem-img {
+    height: 200px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+.theme-dark-shopping .pc-prem-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.85;
+    transition: 0.3s;
+}
+.theme-dark-shopping .product-card-premium:hover .pc-prem-img img {
+    opacity: 1;
+    transform: scale(1.05);
+}
+.theme-dark-shopping .pc-prem-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #d4af37, #f1c40f);
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    z-index: 2;
+}
+.theme-dark-shopping .pc-prem-body {
+    padding: 18px;
+    text-align: center;
+}
+.theme-dark-shopping .pc-prem-title {
+    color: #eee;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.4;
+    min-height: 40px;
+}
+.theme-dark-shopping .pc-prem-price {
+    color: #d4af37;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+</style>
 <!-- Subcategory Sections -->
 <?php foreach ($categories as $cat): ?>
     <?php foreach ($cat['subcategories'] ?? [] as $sub): ?>
@@ -466,9 +641,10 @@ if (!empty($_adMiddleHtml)):
         $subProducts = getProductsByCategory($cat['slug'], $sub['slug']);
         if (empty($subProducts)) continue;
         
-        // Get 16 random products
+        // Get up to 40 products
         shuffle($subProducts);
-        $displayProducts = array_slice($subProducts, 0, 16);
+        $displayProducts = array_slice($subProducts, 0, 40);
+        $totalProducts = count($subProducts);
         ?>
         <section class="section">
             <div class="container">
@@ -482,50 +658,116 @@ if (!empty($_adMiddleHtml)):
                     </a>
                 </div>
 
-                <div class="products-grid">
-                    <?php foreach ($displayProducts as $i => $product): ?>
-                    <div class="product-card animate-on-scroll delay-<?php echo min($i % 6, 5); ?>"
-                         data-product-id="<?php echo $product['id']; ?>"
-                         data-product-slug="<?php echo $product['slug']; ?>"
-                         onclick="openProductModal(<?php echo $product['id']; ?>)">
-                        <div class="product-card-header">
-                            <div class="product-icon">
-                                <img src="/images/icons/<?php echo $product['icon']; ?>"
-                                     alt="<?php echo $product['category']; ?>"
-                                     loading="lazy"
-                                     onerror="this.src='/images/icons/default.svg'">
-                            </div>
-                            <div class="product-meta">
-                                <div class="product-category"><?php echo ucfirst($product['category']); ?> / <?php echo ucfirst($product['subcategory']); ?></div>
-                                <div class="product-name"><?php echo htmlspecialchars($product['name']); ?></div>
-                            </div>
-                        </div>
-                        <p class="product-description"><?php echo htmlspecialchars($product['short_description']); ?></p>
-                        <div class="product-features">
-                            <?php foreach (array_slice($product['features'] ?? [], 0, 3) as $feature): ?>
-                            <span class="product-feature-tag"><i class="fa-solid fa-check"></i> <?php echo htmlspecialchars($feature); ?></span>
-                            <?php endforeach; ?>
-                        </div>
-                        <div class="product-footer">
-                            <div class="product-stock <?php echo $product['quantity'] === 0 ? 'out-of-stock' : ''; ?>">
-                                В наличии: <span class="stock-count"><?php echo $product['quantity']; ?> шт.</span>
-                            </div>
-                            <div class="product-price">
-                                <span class="price-from">от</span>
-                                <?php echo formatPrice($product['price']); ?>
-                            </div>
-                        </div>
-                        <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px;">
-                            <button class="product-buy-btn" style="width:100%;" onclick="event.stopPropagation(); window.location.href = appUrl('/oplata/?item=<?php echo $product['slug']; ?>&qty=1')">
-                                <i class="fa-solid fa-cart-shopping"></i> Купить
-                            </button>
-                            <a href="/item/<?php echo $product['slug']; ?>/" class="product-buy-btn" style="width:100%;background:var(--bg-hover);color:var(--text-secondary);text-align:center;" onclick="event.stopPropagation();" target="_blank">
-                                <i class="fa-solid fa-file-lines"></i> Полное описание
+                <!-- ACCSMARKET STYLE: List -->
+                <?php if ($display_mode == 'list'): ?>
+                    <div class="products-list">
+                        <?php foreach ($displayProducts as $product): ?>
+                        <div class="product-list-item">
+                            <a href="/item/<?php echo $product['slug']; ?>/" class="product-title">
+                                <?php echo htmlspecialchars($product['name']); ?>
                             </a>
+                            <span class="product-price"><?php echo formatPrice($product['price']); ?></span>
                         </div>
+                        <?php endforeach; ?>
                     </div>
-                    <?php endforeach; ?>
+
+                <!-- NOVES-SHOP STYLE: Clean Grid -->
+                <?php elseif ($display_mode == 'grid-clean'): ?>
+                    <div class="row">
+                        <?php foreach ($displayProducts as $i => $product): ?>
+                        <div class="col-md-3 col-sm-6 mb-4">
+                            <div class="product-card-clean">
+                                <div class="pc-img">
+                                    <img src="<?php echo !empty($product['image']) ? $product['image'] : '/images/no-image.png'; ?>" 
+                                         alt="<?php echo htmlspecialchars($product['name']); ?>">
+                                </div>
+                                <div class="pc-body">
+                                    <div class="pc-title"><?php echo htmlspecialchars($product['name']); ?></div>
+                                    <div class="pc-footer">
+                                        <span class="pc-price"><?php echo formatPrice($product['price']); ?></span>
+                                        <a href="/item/<?php echo $product['slug']; ?>/" class="pc-btn">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+
+                <!-- DARK-SHOPPING STYLE: Premium Grid -->
+                <?php elseif ($display_mode == 'premium-grid'): ?>
+                    <div class="row">
+                        <?php foreach ($displayProducts as $i => $product): ?>
+                        <div class="col-md-3 col-sm-6 mb-4">
+                            <div class="product-card-premium">
+                                <div class="pc-prem-img">
+                                    <span class="pc-prem-badge">HOT</span>
+                                    <img src="<?php echo !empty($product['image']) ? $product['image'] : '/images/no-image.png'; ?>" 
+                                         alt="<?php echo htmlspecialchars($product['name']); ?>">
+                                </div>
+                                <div class="pc-prem-body">
+                                    <div class="pc-prem-title"><?php echo htmlspecialchars($product['name']); ?></div>
+                                    <div class="pc-prem-price"><?php echo formatPrice($product['price']); ?></div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                
+                <!-- DEFAULT GRID (для остальных тем) -->
+                <?php else: ?>
+                    <div class="products-grid">
+                        <?php foreach ($displayProducts as $i => $product): ?>
+                        <div class="product-card animate-on-scroll delay-<?php echo min($i % 6, 5); ?>"
+                             data-product-id="<?php echo $product['id']; ?>"
+                             data-product-slug="<?php echo $product['slug']; ?>"
+                             onclick="openProductModal(<?php echo $product['id']; ?>)">
+                            <div class="product-card-header">
+                                <div class="product-icon">
+                                    <img src="/images/icons/<?php echo $product['icon']; ?>"
+                                         alt="<?php echo $product['category']; ?>"
+                                         loading="lazy"
+                                         onerror="this.src='/images/icons/default.svg'">
+                                </div>
+                                <div class="product-meta">
+                                    <div class="product-category"><?php echo ucfirst($product['category']); ?> / <?php echo ucfirst($product['subcategory']); ?></div>
+                                    <div class="product-name"><?php echo htmlspecialchars($product['name']); ?></div>
+                                </div>
+                            </div>
+                            <p class="product-description"><?php echo htmlspecialchars($product['short_description']); ?></p>
+                            <div class="product-features">
+                                <?php foreach (array_slice($product['features'] ?? [], 0, 3) as $feature): ?>
+                                <span class="product-feature-tag"><i class="fa-solid fa-check"></i> <?php echo htmlspecialchars($feature); ?></span>
+                                <?php endforeach; ?>
+                            </div>
+                            <div class="product-footer">
+                                <div class="product-stock <?php echo $product['quantity'] === 0 ? 'out-of-stock' : ''; ?>">
+                                    В наличии: <span class="stock-count"><?php echo $product['quantity']; ?> шт.</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price-from">от</span>
+                                    <?php echo formatPrice($product['price']); ?>
+                                </div>
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px;">
+                                <a href="<?php echo appUrl('/oplata/?item=' . $product['slug'] . '&qty=1'); ?>" class="product-buy-btn" style="width:100%;" onclick="event.stopPropagation();">
+                                    <i class="fa-solid fa-cart-shopping"></i> Купить
+                                </a>
+                                <a href="/item/<?php echo $product['slug']; ?>/" class="product-buy-btn" style="width:100%;background:var(--bg-hover);color:var(--text-secondary);text-align:center;" onclick="event.stopPropagation();" target="_blank">
+                                    <i class="fa-solid fa-file-lines"></i> Полное описание
+                                </a>
+                            </div>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($totalProducts > 40): ?>
+                <div style="text-align:center;margin-top:32px;">
+                    <a href="/category/<?php echo $cat['slug']; ?>/<?php echo $sub['slug']; ?>/" class="btn btn-primary btn-lg">
+                        Смотреть все товары (<?php echo $totalProducts; ?>) <i class="fa-solid fa-arrow-right" style="margin-left:8px;"></i>
+                    </a>
                 </div>
+                <?php endif; ?>
             </div>
         </section>
     <?php endforeach; ?>
