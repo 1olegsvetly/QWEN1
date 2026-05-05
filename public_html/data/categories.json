@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "name": "Facebook",
+    "slug": "facebook",
+    "icon": "facebook.svg",
+    "description": "Автореги, фарм-аккаунты, БМ для рекламы",
+    "seo_title": "Купить Аккаунты Facebook — Автореги, Фарм, БМ",
+    "seo_description": "Продажа аккаунтов Facebook с гарантией. Автореги, фарм-аккаунты, БМ. Моментальная выдача. Цены от 99 ₽.",
+    "subcategories": [
+      {"id": 11, "name": "Автореги", "slug": "avtoregi", "description": "Свежие, бюджетные, для тестов"},
+      {"id": 12, "name": "Фарм-аккаунты", "slug": "farm", "description": "С историей активности"},
+      {"id": 13, "name": "БМ (Business Manager)", "slug": "bm", "description": "Для рекламных кабинетов"},
+      {"id": 14, "name": "С друзьями", "slug": "s-druzyami", "description": "Социальная активность"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Instagram",
+    "slug": "instagram",
+    "icon": "instagram.svg",
+    "description": "Aged-аккаунты, PVA, с 2FA защитой",
+    "seo_title": "Купить Аккаунты Instagram — Aged, PVA, с 2FA",
+    "seo_description": "Продажа аккаунтов Instagram. Aged-аккаунты, PVA, с 2FA защитой. Моментальная выдача. Цены от 199 ₽.",
+    "subcategories": [
+      {"id": 21, "name": "Aged Accounts", "slug": "aged", "description": "Старые регистрации 2020-2023"},
+      {"id": 22, "name": "PVA", "slug": "pva", "description": "Phone Verified Accounts"},
+      {"id": 23, "name": "С 2FA", "slug": "2fa", "description": "Двухфакторная защита"},
+      {"id": 24, "name": "С реальными фото", "slug": "s-foto", "description": "Аватарки не из стоков"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "VKontakte",
+    "slug": "vk",
+    "icon": "vk.svg",
+    "description": "ПВА, автореги, старые аккаунты с друзьями",
+    "seo_title": "Купить Аккаунты ВКонтакте — ПВА, Автореги, Старые",
+    "seo_description": "Продажа аккаунтов ВКонтакте. ПВА, автореги, старые аккаунты с друзьями. Моментальная выдача. Цены от 50 ₽.",
+    "subcategories": [
+      {"id": 31, "name": "Автореги", "slug": "avtoregi", "description": "Массовый сегмент"},
+      {"id": 32, "name": "ПВА", "slug": "pva", "description": "Привязан к номеру РФ"},
+      {"id": 33, "name": "С друзьями", "slug": "s-druzyami", "description": "50-5000 подписчиков"},
+      {"id": 34, "name": "Старые (2010-2015)", "slug": "starye", "description": "Максимальный траст"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Telegram",
+    "slug": "telegram",
+    "icon": "telegram.svg",
+    "description": "Премиум-подписка, PVA, для рассылок",
+    "seo_title": "Купить Аккаунты Telegram — Premium, PVA, для рассылок",
+    "seo_description": "Продажа аккаунтов Telegram. Премиум-подписка, PVA, для рассылок. Моментальная выдача. Цены от 150 ₽.",
+    "subcategories": [
+      {"id": 41, "name": "Premium", "slug": "premium", "description": "Активная подписка 1 год"},
+      {"id": 42, "name": "PVA", "slug": "pva", "description": "Phone Verified"},
+      {"id": 43, "name": "Для рассылок", "slug": "rassylki", "description": "Оптимизированы для рассылок"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "TikTok",
+    "slug": "tiktok",
+    "icon": "tiktok.svg",
+    "description": "Аккаунты TikTok с подписчиками и историей",
+    "seo_title": "Купить Аккаунты TikTok — с подписчиками, Aged",
+    "seo_description": "Продажа аккаунтов TikTok. С подписчиками, aged, PVA. Моментальная выдача. Цены от 120 ₽.",
+    "subcategories": [
+      {"id": 51, "name": "Aged", "slug": "aged", "description": "Старые аккаунты"},
+      {"id": 52, "name": "С подписчиками", "slug": "s-podpischikami", "description": "Реальные подписчики"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Google",
+    "slug": "google",
+    "icon": "google.svg",
+    "description": "Gmail аккаунты, Google Ads, PVA",
+    "seo_title": "Купить Аккаунты Google Gmail — PVA, Ads аккаунты",
+    "seo_description": "Продажа аккаунтов Google Gmail. PVA, Google Ads аккаунты. Моментальная выдача. Цены от 80 ₽.",
+    "subcategories": [
+      {"id": 61, "name": "Gmail PVA", "slug": "gmail-pva", "description": "Phone Verified Gmail"},
+      {"id": 62, "name": "Google Ads", "slug": "google-ads", "description": "Для рекламных кабинетов"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Discord",
+    "slug": "discord",
+    "icon": "discord.svg",
+    "description": "Discord аккаунты с историей и нитро",
+    "seo_title": "Купить Аккаунты Discord — с Nitro, Aged",
+    "seo_description": "Продажа аккаунтов Discord. С Nitro, aged аккаунты. Моментальная выдача. Цены от 90 ₽.",
+    "subcategories": [
+      {"id": 71, "name": "Aged", "slug": "aged", "description": "Старые аккаунты"},
+      {"id": 72, "name": "С Nitro", "slug": "nitro", "description": "Активная подписка Nitro"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Игровые",
+    "slug": "games",
+    "icon": "brawlstars.svg",
+    "description": "Brawl Stars, Call of Duty и другие игры",
+    "seo_title": "Купить Игровые Аккаунты — Brawl Stars, CoD",
+    "seo_description": "Продажа игровых аккаунтов. Brawl Stars, Call of Duty и другие. Моментальная выдача. Цены от 200 ₽.",
+    "subcategories": [
+      {"id": 81, "name": "Brawl Stars", "slug": "brawl-stars", "description": "Аккаунты Brawl Stars"},
+      {"id": 82, "name": "Call of Duty", "slug": "cod", "description": "Аккаунты Call of Duty"}
+    ]
+  }
+]

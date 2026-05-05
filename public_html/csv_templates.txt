@@ -1,0 +1,26 @@
+=== ШАБЛОН ДЛЯ ТОВАРОВ (products_template.csv) ===
+Скопируйте строку ниже в первую строку вашего CSV файла:
+name,slug,category,subcategory,short_description,full_description,price,quantity,icon,status,cookies,proxy,email_verified,country,sex,age,popular,features
+
+Пример данных (одна строка):
+FB Accounts Farm USA,fb-farm-usa,facebook,farm,Farm accounts USA with cookies,Full description with HTML tags allowed here,349,50,facebook.svg,active,yes,yes,yes,USA,any,2023,yes,Cookies included|72h guarantee|USA Proxy
+
+Пояснения к полям:
+- category: slug категории (facebook, instagram, vk, telegram, tiktok, google, discord, games)
+- subcategory: slug подкатегории (avtoregi, farm, bm, pva, aged и т.д.)
+- status: active или inactive
+- cookies/proxy/email_verified/popular: yes или no
+- features: перечисление через вертикальную черту |
+
+=== ШАБЛОН ДЛЯ СТАТЕЙ (articles_template.csv) ===
+Скопируйте строку ниже в первую строку вашего CSV файла:
+title,slug,excerpt,content,image,date,seo_title,seo_description
+
+Пример данных (одна строка):
+Новая статья о Facebook,new-fb-article,Краткое описание статьи для превью,Полный текст статьи с <h2>HTML</h2> тегами,fb-image.jpg,2024-04-10,SEO Заголовок статьи,SEO Описание статьи для поисковиков
+
+Пояснения к полям:
+- slug: уникальный URL статьи (только латиница и дефисы)
+- image: название файла картинки (будет искаться в /images/blog/)
+- content: поддерживает HTML теги для SEO оптимизации
+- date: формат ГГГГ-ММ-ДД

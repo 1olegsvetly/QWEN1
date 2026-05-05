@@ -1,0 +1,90 @@
+{
+    "site": {
+        "name": "djekxa.org.ru",
+        "tagline": "Магазин аккаунтов соцсетей и сервисов",
+        "url": "https:\/\/djekxa.org.ru",
+        "email": "support@accme.local",
+        "telegram": "https:\/\/t.me\/accme_support",
+        "theme": "dark",
+        "logo_text": "ACCME",
+        "template": "dark-pro"
+    },
+    "colors": {
+        "primary": "#4F46E5",
+        "primary_hover": "#4338CA",
+        "secondary": "#10B981",
+        "danger": "#EF4444",
+        "warning": "#F59E0B",
+        "bg_dark": "#0F172A",
+        "bg_card": "#1E293B",
+        "bg_hover": "#334155",
+        "text_primary": "#F8FAFC",
+        "text_secondary": "#94A3B8",
+        "text_muted": "#64748B",
+        "border": "#334155",
+        "border_radius": "12"
+    },
+    "stats": {
+        "accounts_count": 15000,
+        "sales_count": 50000,
+        "years_on_market": 3,
+        "satisfaction_rate": 99.2000000000000028421709430404007434844970703125
+    },
+    "seo": {
+        "title": "Купить аккаунты Facebook, Instagram, VK, Telegram, TikTok, Google | ACCME",
+        "description": "Продажа аккаунтов соцсетей с гарантией: Facebook, Instagram, VK, Telegram, TikTok, Google. Автореги, фарм-аккаунты, БМ. Моментальная выдача после оплаты.",
+        "keywords": "купить аккаунты facebook, аккаунты instagram, аккаунты vk, аккаунты telegram, аккаунты tiktok, аккаунты google, автореги, фарм аккаунты, БМ, бизнес менеджер",
+        "oplata_title": "Оформление заказа -djekxa",
+        "oplata_description": "Оформите заказ и выберите удобный способ оплаты. Моментальная выдача после оплаты."
+    },
+    "contacts": {
+        "email": "support@djekxa.org.ru",
+        "telegram": "@djekxa_support",
+        "telegram_url": "https:\/\/t.me\/djekxa_support"
+    },
+    "admin": {
+        "login": "admin",
+        "password_hash": "e00cf25ad42683b3df678c61f42c6bda"
+    },
+    "shop": {
+        "show_demo_products": true
+    },
+    "analytics": {
+        "ga4_id": "",
+        "gtm_id": "",
+        "ym_id": "",
+        "google_verify": "",
+        "yandex_verify": "",
+        "custom_head": "",
+        "custom_body": ""
+    },
+    "payment": {
+        "methods": {
+            "yoomoney": {
+                "enabled": false
+            },
+            "crypto": {
+                "enabled": false
+            },
+            "demo": {
+                "enabled": false
+            }
+        },
+        "yoomoney": {
+            "wallet": "",
+            "client_id": "",
+            "client_secret": "",
+            "notification_secret": "",
+            "redirect_uri": "",
+            "success_url": "",
+            "fail_url": "",
+            "payment_type": "AC"
+        },
+        "crypto": {
+            "merchant": "",
+            "api_key": "",
+            "webhook_url": "",
+            "notes": ""
+        }
+    }
+}
