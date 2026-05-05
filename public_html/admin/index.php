@@ -2814,9 +2814,10 @@ async function deleteFaq(index) {
 
 // ---- Settings ----
 function selectTemplate(tplKey) {
-    const validTemplates = ['dark-pro','cyber-neon','accsmarket','light-clean','midnight-gold'];
+    const validTemplates = ['dark-pro','cyber-neon','accsmarket','light-clean','midnight-gold','noves-shop','dark-shopping'];
     if (!validTemplates.includes(tplKey)) return;
-    // Снять выделение со всех
+    
+    // Снять выделение со всех карточек tpl-card
     validTemplates.forEach(t => {
         const card = document.getElementById('tpl-card-' + t);
         if (card) {
@@ -2826,8 +2827,14 @@ function selectTemplate(tplKey) {
             const badge = card.querySelector('.tpl-active-badge');
             if (badge) badge.remove();
         }
+        // Также снять выделение с theme-card
+        const themeCard = document.getElementById('theme-card-' + t);
+        if (themeCard) {
+            themeCard.style.borderColor = 'var(--border)';
+        }
     });
-    // Выделить выбранный
+    
+    // Выделить выбранный tpl-card
     const sel = document.getElementById('tpl-card-' + tplKey);
     if (sel) {
         sel.style.borderColor = 'var(--primary)';
@@ -2838,6 +2845,15 @@ function selectTemplate(tplKey) {
         badge.innerHTML = '<i class="fa-solid fa-check"></i> Активен';
         sel.appendChild(badge);
     }
+    
+    // Выделить выбранный theme-card (для раздела тем)
+    const themeSel = document.getElementById('theme-card-' + tplKey);
+    if (themeSel) {
+        themeSel.style.borderColor = 'var(--primary)';
+        // Перезагрузить страницу для применения темы
+        adminToast('Тема "' + tplKey + '" выбрана! Сохраните настройки.', 'success');
+    }
+    
     document.getElementById('siteTemplate').value = tplKey;
 }
 
