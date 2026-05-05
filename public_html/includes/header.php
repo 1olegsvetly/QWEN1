@@ -122,6 +122,7 @@ if ($currentTheme === 'light') $currentTheme = 'light-clean';
             <div class="nav-inner">
                 <ul class="nav-list">
                     <li><a href="/#categories" class="nav-link <?php echo ($currentPage ?? '') === 'home' ? 'active' : ''; ?>"><i class="fa-solid fa-store"></i> Магазин</a></li>
+                    <li><a href="/catalog/" class="nav-link <?php echo ($currentPage ?? '') === 'catalog' ? 'active' : ''; ?>"><i class="fa-solid fa-list"></i> Каталог</a></li>
                     <li><a href="/info/" class="nav-link <?php echo ($currentPage ?? '') === 'info' ? 'active' : ''; ?>"><i class="fa-solid fa-newspaper"></i> Блог</a></li>
                     <li><a href="/faq/" class="nav-link <?php echo ($currentPage ?? '') === 'faq' ? 'active' : ''; ?>"><i class="fa-solid fa-circle-question"></i> FAQ</a></li>
                     <li><a href="/rules/" class="nav-link <?php echo ($currentPage ?? '') === 'rules' ? 'active' : ''; ?>"><i class="fa-solid fa-file-lines"></i> Правила</a></li>

@@ -1,562 +1,742 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://djekxa.org.ru/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/faq/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/rules/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/advertising/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/facebook/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/instagram/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/vk/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/telegram/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/tiktok/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/google/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/discord/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/games/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/instagram-farm-usa-101/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=yandex-mail-de-110&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/yandex-mail-de-110/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=twitter-verified-br-312&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/twitter-verified-br-312/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=tiktok-farm-ca-413&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/tiktok-farm-ca-413/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=vk-business-usa-514&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/vk-business-usa-514/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=telegram-premium-in-716&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/telegram-premium-in-716/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=gmail-aged-ru-918&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/gmail-aged-ru-918/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=outlook-fresh-uk-119&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/outlook-fresh-uk-119/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=instagram-verified-de-321&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/instagram-verified-de-321/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=tiktok-aged-fr-523&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/tiktok-aged-fr-523/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=vk-farm-in-624&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/vk-farm-in-624/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=telegram-channel-ru-826&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/telegram-channel-ru-826/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/instagram/aged/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/instagram-aged-uk-211/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/telegram/premium/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/telegram-premium-uk-936/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/telegram-premium-usa-256/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/tiktok/aged/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/?cat=%D0%91%D0%B5%D0%B7+%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/twitch-account-strikes-dmca/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/google-account-gmail-history-ppc/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/tiktok-1000-followers-live-access/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/facebook-business-manager-limits/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/otvyazat-chuzhoy-nomer-telegram-akkaunta/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/spotify-lifetime-account-scam/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/progrev-akkaunta-telegram-dlya-biznesa/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/netflix-account-personal-or-shared/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/account-instagram-real-followers/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/?page=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/?page=2</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/facebook/avtoregi/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/facebook/farm/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/facebook/bm/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/facebook/s-druzyami/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=facebook-personal-fr-615&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/facebook-personal-fr-615/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=facebook-business-ca-725&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/facebook-business-ca-725/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=facebook-verified-ru-835&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/facebook-verified-ru-835/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=facebook-fanpage-usa-945&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/facebook-fanpage-usa-945/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=facebook-verified-br-155&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/facebook-verified-br-155/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/instagram/pva/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/instagram/2fa/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/instagram/s-foto/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=instagram-aged-uk-211&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=instagram-farm-de-761&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/instagram-farm-de-761/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/vk/avtoregi/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/vk/pva/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/vk/s-druzyami/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/vk/starye/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=vk-verified-ca-734&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/vk-verified-ca-734/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=vk-business-de-844&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/vk-business-de-844/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=vk-aged-fr-954&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/vk-aged-fr-954/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/telegram/pva/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/telegram/rassylki/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=telegram-premium-uk-936&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=telegram-channel-ca-146&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/telegram-channel-ca-146/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=telegram-premium-usa-256&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/tiktok/s-podpischikami/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=tiktok-creator-in-633&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/tiktok-creator-in-633/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=tiktok-verified-uk-743&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/tiktok-verified-uk-743/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/oplata/?item=tiktok-creator-au-853&amp;qty=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/item/tiktok-creator-au-853/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/google/gmail-pva/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/google/google-ads/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/discord/aged/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/discord/nitro/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/games/brawl-stars/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/games/cod/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/yandex/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/twitter/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/gmail/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/category/outlook/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/?cat=%D0%91%D0%B5%D0%B7+%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8&amp;page=1</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/?cat=%D0%91%D0%B5%D0%B7+%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8&amp;page=2</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://djekxa.org.ru/info/kak-proverit-akkaunt-steam-pered-pokupkoy/</loc>
-  <lastmod>2026-05-04T18:53:15+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://djekxa.org.ru/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/faq/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/rules/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/oplata/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/advertising/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/facebook/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/facebook/avtoregi/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/facebook/farm/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/facebook/bm/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/facebook/s-druzyami/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/instagram/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/instagram/aged/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/instagram/pva/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/instagram/2fa/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/instagram/s-foto/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/vk/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/vk/avtoregi/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/vk/pva/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/vk/s-druzyami/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/vk/starye/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/telegram/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/telegram/premium/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/telegram/pva/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/telegram/rassylki/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/tiktok/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/tiktok/aged/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/tiktok/s-podpischikami/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/google/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/google/gmail-pva/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/google/google-ads/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/discord/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/discord/aged/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/discord/nitro/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/games/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/games/brawl-stars/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/category/games/cod/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/instagram-farm-usa-101/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/twitter-aged-ca-202/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/yandex-mail-de-110/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/instagram-aged-uk-211/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/twitter-verified-br-312/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/tiktok-farm-ca-413/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/vk-business-usa-514/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/facebook-personal-fr-615/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/telegram-premium-in-716/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/youtube-channel-au-817/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/gmail-aged-ru-918/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/outlook-fresh-uk-119/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/yandex-verified-br-220/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/instagram-verified-de-321/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/twitter-blue-au-422/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/tiktok-aged-fr-523/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/vk-farm-in-624/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/facebook-business-ca-725/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/telegram-channel-ru-826/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/youtube-monetized-uk-927/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/gmail-verified-usa-128/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/outlook-aged-de-229/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/yandex-aged-au-330/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/twitter-farm-fr-532/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/tiktok-creator-in-633/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/vk-verified-ca-734/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/facebook-verified-ru-835/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/telegram-premium-uk-936/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/youtube-channel-de-137/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/gmail-fresh-au-238/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/outlook-verified-br-339/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/yandex-mail-fr-440/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/tiktok-verified-uk-743/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/vk-business-de-844/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/facebook-fanpage-usa-945/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/telegram-channel-ca-146/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/youtube-aged-br-247/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/gmail-verified-fr-348/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/outlook-fresh-in-449/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/yandex-verified-ru-550/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/twitter-blue-de-752/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/tiktok-creator-au-853/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/vk-aged-fr-954/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/facebook-verified-br-155/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/telegram-premium-usa-256/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/youtube-monetized-ca-357/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/gmail-aged-uk-458/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/outlook-verified-in-559/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/yandex-mail-ru-660/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/instagram-farm-de-761/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/item/twitter-aged-usa-862/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/kak-proverit-akkaunt-steam-pered-pokupkoy/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/steam-account-check.jpg</image:loc>
+      <image:title>Как проверить аккаунт Steam перед покупкой: полный чек-лист</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/account-instagram-real-followers/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/instagram-account-real-followers.jpg</image:loc>
+      <image:title>Аккаунты Instagram с подписчиками: как отличить накрутку от реальных фолловеров</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/netflix-account-personal-or-shared/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/netflix-account-check.jpg</image:loc>
+      <image:title>Аккаунты Netflix: как не купить shared-доступ вместо персонального</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/progrev-akkaunta-telegram-dlya-biznesa/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/telegram-progrev-account.jpg</image:loc>
+      <image:title>Что такое «прогрев» аккаунта Telegram и зачем он нужен для бизнеса</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/spotify-lifetime-account-scam/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/spotify-lifetime-account.jpg</image:loc>
+      <image:title>Почему не стоит покупать аккаунты Spotify с пожизненной подпиской — развод или правда</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/otvyazat-chuzhoy-nomer-telegram-akkaunta/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/telegram-change-number.jpg</image:loc>
+      <image:title>Как отвязать чужой номер телефона от купленного аккаунта Telegram: пошаговое руководство</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/facebook-business-manager-limits/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/facebook-bm-limits.jpg</image:loc>
+      <image:title>Аккаунты Facebook Business Manager: как проверить лимиты на рекламу и страну</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/tiktok-1000-followers-live-access/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/tiktok-1000-live.jpg</image:loc>
+      <image:title>Покупка аккаунта TikTok с 1000 подписчиков: что нужно для открытия «Кибер-кнопки» (Live)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/google-account-gmail-history-ppc/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/google-gmail-aged.jpg</image:loc>
+      <image:title>Аккаунты Google (Gmail) с историей: зачем они нужны для PPC и как проверить «отлежку»</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/twitch-account-strikes-dmca/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/twitch-account-strikes.jpg</image:loc>
+      <image:title>Как проверить купленный аккаунт Twitch на наличие страйков (нарушений DMCA)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/ohotniki-za-akkauntami-kak-ne-kupit-kradenyy/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/stolen-account-signs.jpg</image:loc>
+      <image:title>Охотники за аккаунтами: как воры крадут игровые профили и как не купить «горячий» аккаунт</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/smert-akkaunta-netflix-pochemu-umiraet/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/netflix-lifetime-death.jpg</image:loc>
+      <image:title>Странная смерть аккаунта Netflix: почему ваш «вечный премиум» умер через 11 дней и как выбирать живучего</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/gotoviy-ili-svoy-akkaunt-instagram/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/instagram-gotoviy-ili-svoy.jpg</image:loc>
+      <image:title>Эпическая битва: покупать готовый аккаунт Instagram или качать свой с нуля — математика, лень и риск</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/discord-account-token-farm-nitro/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/discord-token-farm.jpg</image:loc>
+      <image:title>Тёмная сторона аккаунтов Discord: как отличить «токенферму» от реального профиля Nitro</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/facebook-ban-history-lesson/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/facebook-ban-progrev.jpg</image:loc>
+      <image:title>История одного бана: почему Facebook заблокировал купленный аккаунт через 6 часов и что делать</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/spotify-family-plan-slot/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/spotify-family-slot.jpg</image:loc>
+      <image:title>Spotify Family на 6 человек — как не попасть на «лишнего» и почему аккаунты отваливаются</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/steam-cs2-account-guide-for-genz/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/steam-cs2-genz.jpg</image:loc>
+      <image:title>Как купить аккаунт Steam с CS2 и не прогадать: гайд для зумеров</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/tiktok-1000-followers-fast-no-ban/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/tiktok-1000-followers-genz.jpg</image:loc>
+      <image:title>Как накрутить первые 1000 подписчиков в TikTok без бана (рабочая схема)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/discord-nitro-account-for-teens/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/discord-nitro-safe1.jpg</image:loc>
+      <image:title>Покупка аккаунта Discord с Nitro: что должен знать каждый тинейджер</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/netflix-for-teenagers-cheap/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/netflix-for-teens-guide.jpg</image:loc>
+      <image:title>Netflix для школьника: стоит ли покупать аккаунт и как смотреть без бана</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://djekxa.org.ru/info/telegram-premium-for-students/</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://djekxa.org.ru/images/blog/telegram-premium-safe-buy.jpg</image:loc>
+      <image:title>Telegram Premium для учёбы и тусовок: реально ли купить со скидкой и не потерять номер</image:title>
+    </image:image>
+  </url>
 </urlset>

@@ -50,6 +50,8 @@ if (preg_match('#^/category/([^/]+)/([^/]+)/?$#', $uri, $m)) {
     $_GET['article'] = $m[1];
 } elseif ($uri === '/advertising' || $uri === '/advertising/') {
     $_GET['page'] = 'advertising';
+} elseif ($uri === '/catalog' || $uri === '/catalog/') {
+    $_GET['page'] = 'catalog';
 }
 
 $_SERVER['SCRIPT_NAME'] = '/index.php';
