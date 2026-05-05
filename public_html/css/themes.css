@@ -1,6 +1,6 @@
 /*
    Account Store CMS — Themes System
-   5 шаблонов: dark-pro, cyber-neon, accsmarket, light-clean, midnight-gold
+   7 шаблонов: dark-pro, cyber-neon, accsmarket, light-clean, midnight-gold, noves-shop, dark-shopping
    ============================================ */
 
 /* ============================================================
@@ -974,4 +974,344 @@ body {
 .main-nav,
 .top-bar {
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* ============================================================
+   ШАБЛОН 6: noves-shop (Стиль noves-shop.com — минимализм)
+   Светлый фон, карточки с тенью, акцент на изображения
+   ============================================================ */
+body.theme-noves-shop {
+    --primary: #2563EB;
+    --primary-hover: #1D4ED8;
+    --secondary: #10B981;
+    --danger: #EF4444;
+    --warning: #F59E0B;
+    --bg-dark: #F9FAFB;
+    --bg-card: #FFFFFF;
+    --bg-hover: #F3F4F6;
+    --text-primary: #111827;
+    --text-secondary: #6B7280;
+    --text-muted: #9CA3AF;
+    --border: #E5E7EB;
+    --border-radius: 8px;
+    --gradient-primary: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+    --gradient-success: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    --button-primary-text: #FFFFFF;
+    --button-secondary-text: #FFFFFF;
+    --surface-contrast-text: #111827;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+body.theme-noves-shop .site-header {
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+body.theme-noves-shop .top-bar {
+    background: #F9FAFB;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+body.theme-noves-shop .main-nav {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+body.theme-noves-shop .logo-text {
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-noves-shop .nav-link:hover,
+body.theme-noves-shop .nav-link.active {
+    color: #2563EB;
+    border-bottom-color: #2563EB;
+}
+
+body.theme-noves-shop .product-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+body.theme-noves-shop .product-card:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+    border-color: #2563EB;
+}
+
+body.theme-noves-shop .product-card::after {
+    display: none;
+}
+
+body.theme-noves-shop .product-image-wrapper {
+    background: #F9FAFB;
+    padding: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+body.theme-noves-shop .product-name {
+    font-weight: 600;
+    color: #111827;
+    font-size: 0.95rem;
+}
+
+body.theme-noves-shop .product-category {
+    font-size: 0.75rem;
+    color: #6B7280;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+body.theme-noves-shop .product-price {
+    color: #2563EB;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+body.theme-noves-shop .product-buy-btn {
+    background: #2563EB;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+body.theme-noves-shop .product-buy-btn:hover {
+    background: #1D4ED8;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+body.theme-noves-shop .hero {
+    background: linear-gradient(135deg, #EFF6FF 0%, #F0FDF4 100%);
+}
+
+body.theme-noves-shop .hero h1 {
+    color: #111827;
+}
+
+body.theme-noves-shop .hero-subtitle {
+    color: #6B7280;
+}
+
+body.theme-noves-shop .category-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+body.theme-noves-shop .category-card:hover {
+    border-color: #2563EB;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+body.theme-noves-shop .btn-primary {
+    background: #2563EB;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+body.theme-noves-shop .btn-primary:hover {
+    background: #1D4ED8;
+}
+
+/* ============================================================
+   ШАБЛОН 7: dark-shopping (Стиль dark.shopping — премиум тёмный)
+   Глубокий чёрный, золотые акценты, минимализм
+   ============================================================ */
+body.theme-dark-shopping {
+    --primary: #D4AF37;
+    --primary-hover: #B89628;
+    --secondary: #C0A062;
+    --danger: #DC2626;
+    --warning: #F59E0B;
+    --bg-dark: #000000;
+    --bg-card: #0A0A0A;
+    --bg-hover: #141414;
+    --text-primary: #FFFFFF;
+    --text-secondary: #A0A0A0;
+    --text-muted: #666666;
+    --border: #1A1A1A;
+    --border-radius: 4px;
+    --gradient-primary: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
+    --gradient-success: linear-gradient(135deg, #D4AF37 0%, #C0A062 100%);
+    --button-primary-text: #000000;
+    --button-secondary-text: #000000;
+    --surface-contrast-text: #FFFFFF;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+body.theme-dark-shopping .site-header {
+    background: #000000;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+body.theme-dark-shopping .top-bar {
+    background: #050505;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+body.theme-dark-shopping .main-nav {
+    background: #0A0A0A;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+body.theme-dark-shopping .logo-text {
+    background: linear-gradient(135deg, #D4AF37, #F4D03F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-dark-shopping .nav-link {
+    color: #A0A0A0;
+}
+
+body.theme-dark-shopping .nav-link:hover,
+body.theme-dark-shopping .nav-link.active {
+    color: #D4AF37;
+    border-bottom-color: #D4AF37;
+}
+
+body.theme-dark-shopping .product-card {
+    background: #0A0A0A;
+    border: 1px solid #1A1A1A;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+body.theme-dark-shopping .product-card:hover {
+    border-color: #D4AF37;
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+    transform: translateY(-2px);
+}
+
+body.theme-dark-shopping .product-card::after {
+    display: none;
+}
+
+body.theme-dark-shopping .product-image-wrapper {
+    background: #0F0F0F;
+    padding: 24px;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+body.theme-dark-shopping .product-name {
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+body.theme-dark-shopping .product-category {
+    font-size: 0.7rem;
+    color: #D4AF37;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+body.theme-dark-shopping .product-description {
+    color: #A0A0A0;
+}
+
+body.theme-dark-shopping .product-price {
+    color: #D4AF37;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+body.theme-dark-shopping .product-stock {
+    color: #666666;
+}
+
+body.theme-dark-shopping .product-buy-btn {
+    background: linear-gradient(135deg, #D4AF37, #F4D03F);
+    color: #000000;
+    border-radius: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+body.theme-dark-shopping .product-buy-btn:hover {
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+    transform: translateY(-1px);
+}
+
+body.theme-dark-shopping .btn-primary {
+    background: linear-gradient(135deg, #D4AF37, #F4D03F);
+    color: #000000;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+body.theme-dark-shopping .btn-primary:hover {
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+}
+
+body.theme-dark-shopping .hero {
+    background: radial-gradient(ellipse at top, #1A1A1A 0%, #000000 100%);
+}
+
+body.theme-dark-shopping .hero h1 {
+    background: linear-gradient(135deg, #D4AF37, #F4D03F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-dark-shopping .hero-subtitle {
+    color: #A0A0A0;
+}
+
+body.theme-dark-shopping .hero-badge {
+    background: rgba(212, 175, 55, 0.1);
+    border-color: rgba(212, 175, 55, 0.3);
+    color: #D4AF37;
+}
+
+body.theme-dark-shopping .hero-feature {
+    background: rgba(212, 175, 55, 0.05);
+    border-color: rgba(212, 175, 55, 0.2);
+    color: #D4AF37;
+}
+
+body.theme-dark-shopping .stat-number {
+    background: linear-gradient(135deg, #D4AF37, #F4D03F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.theme-dark-shopping .category-card {
+    background: #0A0A0A;
+    border: 1px solid #1A1A1A;
+    border-radius: 4px;
+}
+
+body.theme-dark-shopping .category-card:hover {
+    border-color: #D4AF37;
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.1);
+}
+
+body.theme-dark-shopping .footer {
+    background: #050505;
+    border-top: 1px solid #1A1A1A;
+}
+
+body.theme-dark-shopping .section-alt {
+    background: #050505;
+}
+
+body.theme-dark-shopping .product-feature-tag {
+    background: rgba(212, 175, 55, 0.1);
+    border-color: rgba(212, 175, 55, 0.2);
+    color: #D4AF37;
 }

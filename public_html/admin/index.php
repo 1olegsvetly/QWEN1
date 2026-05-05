@@ -532,6 +532,9 @@ $unreadContacts = count($contactsList);
             <a href="/admin/?section=payments" class="sidebar-link <?php echo $section === 'payments' ? 'active' : ''; ?>">
                 <i class="fa-solid fa-credit-card"></i> Платежи
             </a>
+            <a href="/admin/?section=themes" class="sidebar-link <?php echo $section === 'themes' ? 'active' : ''; ?>">
+                <i class="fa-solid fa-palette"></i> Темы оформления
+            </a>
             <a href="/admin/?section=settings" class="sidebar-link <?php echo $section === 'settings' ? 'active' : ''; ?>">
                 <i class="fa-solid fa-gear"></i> Настройки
             </a>
@@ -1003,6 +1006,8 @@ $unreadContacts = count($contactsList);
                             'accsmarket' => ['name' => 'AccsMarket', 'desc' => 'Строчный список, зелёный', 'icon' => 'fa-list', 'color' => 'linear-gradient(135deg,#4CAF50,#8BC34A)'],
                             'light-clean' => ['name' => 'Светлый чистый', 'desc' => 'Белый фон, синие акценты', 'icon' => 'fa-sun', 'color' => 'linear-gradient(135deg,#2563EB,#7C3AED)'],
                             'midnight-gold' => ['name' => 'Полночь и Золото', 'desc' => 'Чёрный фон, золотые акценты', 'icon' => 'fa-star', 'color' => 'linear-gradient(135deg,#F59E0B,#FBBF24)'],
+                            'noves-shop' => ['name' => 'Noves Shop', 'desc' => 'Минимализм, светлый', 'icon' => 'fa-store', 'color' => 'linear-gradient(135deg,#2563EB,#10B981)'],
+                            'dark-shopping' => ['name' => 'Dark Shopping', 'desc' => 'Премиум тёмный, золото', 'icon' => 'fa-crown', 'color' => 'linear-gradient(135deg,#D4AF37,#F4D03F)'],
                         ];
                         $currentTemplate = $s['site']['template'] ?? 'dark-pro';
                         foreach ($templates as $tKey => $tData):
@@ -1299,6 +1304,79 @@ $unreadContacts = count($contactsList);
                     <button class="topbar-btn topbar-btn-primary" onclick="changePassword()">
                         <i class="fa-solid fa-key"></i> Сменить пароль
                     </button>
+                </div>
+            </div>
+        </div>
+
+        <?php elseif ($section === 'themes'): ?>
+        <!-- ===== THEMES MANAGEMENT ===== -->
+        <div class="admin-topbar">
+            <h2><i class="fa-solid fa-palette" style="color:var(--primary);margin-right:8px;"></i> Темы оформления</h2>
+            <div class="topbar-actions">
+                <a href="/" target="_blank" class="topbar-btn topbar-btn-secondary">
+                    <i class="fa-solid fa-eye"></i> Предпросмотр
+                </a>
+            </div>
+        </div>
+        <div class="admin-content">
+            <div class="settings-section" style="grid-column:1/-1;">
+                <h3><i class="fa-solid fa-book-open" style="margin-right:8px;color:var(--primary);"></i> Доступные темы</h3>
+                <p style="color:var(--text-muted);font-size:0.875rem;margin-bottom:20px;">
+                    Выберите тему для предпросмотра или установки. Все изменения применяются мгновенно после выбора.
+                </p>
+                <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;">
+                    <?php
+                    $allTemplates = [
+                        'dark-pro' => ['name' => 'Тёмный Про', 'desc' => 'Фиолетово-синий градиент, карточки-плитки', 'icon' => 'fa-moon', 'color' => 'linear-gradient(135deg,#4F46E5,#7C3AED)', 'preview' => '#1E293B'],
+                        'cyber-neon' => ['name' => 'Кибер-Неон', 'desc' => 'Зелёный неон, тёмный фон, футуристичный стиль', 'icon' => 'fa-bolt', 'color' => 'linear-gradient(135deg,#00FF88,#00D4FF)', 'preview' => '#0A1628'],
+                        'accsmarket' => ['name' => 'AccsMarket', 'desc' => 'Строчный список товаров, зелёные акценты', 'icon' => 'fa-list', 'color' => 'linear-gradient(135deg,#4CAF50,#8BC34A)', 'preview' => '#16213e'],
+                        'light-clean' => ['name' => 'Светлый чистый', 'desc' => 'Белый фон, синие акценты, минимализм', 'icon' => 'fa-sun', 'color' => 'linear-gradient(135deg,#2563EB,#7C3AED)', 'preview' => '#FFFFFF'],
+                        'midnight-gold' => ['name' => 'Полночь и Золото', 'desc' => 'Глубокий чёрный, золотые акценты, премиум', 'icon' => 'fa-star', 'color' => 'linear-gradient(135deg,#F59E0B,#FBBF24)', 'preview' => '#12121A'],
+                        'noves-shop' => ['name' => 'Noves Shop', 'desc' => 'Светлый минимализм, акцент на изображения', 'icon' => 'fa-store', 'color' => 'linear-gradient(135deg,#2563EB,#10B981)', 'preview' => '#F9FAFB'],
+                        'dark-shopping' => ['name' => 'Dark Shopping', 'desc' => 'Премиум тёмный, золотые элементы, люкс', 'icon' => 'fa-crown', 'color' => 'linear-gradient(135deg,#D4AF37,#F4D03F)', 'preview' => '#0A0A0A'],
+                    ];
+                    $currentTpl = $settings['site']['template'] ?? 'dark-pro';
+                    foreach ($allTemplates as $tKey => $tData):
+                    ?>
+                    <div style="border:2px solid <?php echo $currentTpl === $tKey ? 'var(--primary)' : 'var(--border)'; ?>;border-radius:12px;overflow:hidden;background:var(--bg-card);transition:all 0.3s;" id="theme-card-<?php echo $tKey; ?>">
+                        <div style="height:140px;background:<?php echo $tData['preview']; ?>;display:flex;align-items:center;justify-content:center;position:relative;">
+                            <div style="width:60px;height:60px;border-radius:12px;background:<?php echo $tData['color']; ?>;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(0,0,0,0.3);">
+                                <i class="fa-solid <?php echo $tData['icon']; ?>" style="color:#fff;font-size:1.5rem;"></i>
+                            </div>
+                            <?php if ($currentTpl === $tKey): ?>
+                            <div style="position:absolute;top:10px;right:10px;background:rgba(16,185,129,0.9);color:#fff;padding:4px 10px;border-radius:100px;font-size:0.75rem;font-weight:600;">
+                                <i class="fa-solid fa-check"></i> Активна
+                            </div>
+                            <?php endif; ?>
+                        </div>
+                        <div style="padding:16px;">
+                            <div style="font-weight:700;margin-bottom:6px;font-size:1rem;"><?php echo $tData['name']; ?></div>
+                            <div style="font-size:0.82rem;color:var(--text-muted);margin-bottom:12px;line-height:1.4;"><?php echo $tData['desc']; ?></div>
+                            <div style="display:flex;gap:8px;">
+                                <button onclick="selectTemplate('<?php echo $tKey; ?>')" class="action-btn action-btn-edit" style="width:auto;padding:6px 12px;font-size:0.8rem;" title="Установить тему">
+                                    <i class="fa-solid fa-check"></i> Установить
+                                </button>
+                                <a href="/?preview_theme=<?php echo $tKey; ?>" target="_blank" class="action-btn action-btn-view" style="width:auto;padding:6px 12px;font-size:0.8rem;text-decoration:none;display:flex;align-items:center;" title="Предпросмотр">
+                                    <i class="fa-solid fa-eye"></i> Просмотр
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+            <div class="settings-section" style="grid-column:1/-1;margin-top:24px;">
+                <h3><i class="fa-solid fa-wand-magic-sparkles" style="margin-right:8px;color:var(--primary);"></i> Быстрое переключение</h3>
+                <p style="color:var(--text-muted);font-size:0.875rem;margin-bottom:16px;">
+                    Используйте горячие клавиши для быстрого переключения тем в админке (только для предпросмотра).
+                </p>
+                <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                    <?php foreach ($allTemplates as $tKey => $tData): ?>
+                    <button onclick="selectTemplate('<?php echo $tKey; ?>')" style="padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer;font-size:0.85rem;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--primary)'" onmouseout="this.style.borderColor='var(--border)'">
+                        <i class="fa-solid <?php echo $tData['icon']; ?>" style="margin-right:6px;color:<?php echo explode(',',explode('deg,',$tData['color'])[1])[0]; ?>"></i><?php echo $tData['name']; ?>
+                    </button>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
