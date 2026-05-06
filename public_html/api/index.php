@@ -1348,6 +1348,13 @@ switch (true) {
             foreach (['name','tagline','email','theme','logo_text','template','url'] as $field) {
                 if (isset($input['site'][$field])) $settings['site'][$field] = sanitize($input['site'][$field]);
             }
+            // Специальная обработка template для тем
+            if (isset($input['site']['template'])) {
+                $validTemplates = ['dark-pro','cyber-neon','accsmarket','light-clean','midnight-gold','noves-shop','dark-shopping'];
+                if (in_array($input['site']['template'], $validTemplates)) {
+                    $settings['site']['template'] = $input['site']['template'];
+                }
+            }
         }
         if (isset($input['contacts'])) {
             foreach (['email','telegram','telegram_url'] as $field) {
